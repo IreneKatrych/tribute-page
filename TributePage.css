@@ -1,0 +1,67 @@
+
+body{
+    background: rgb(250, 226, 245);
+}
+
+#main{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+}
+
+#header{
+    grid-column:  2/3;
+    grid-row: 1/2;
+    justify-self: center;
+}
+
+#title{
+    color: #FD12E2;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Molle', cursive;
+}
+
+#title-describe{
+    text-align: center;
+    font-size: 20px;
+}
+
+img{
+    margin: auto;
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+#img-div{
+    margin: auto;
+    padding: 10px;
+}
+
+a:hover{
+    color: rgb(19, 23, 255);
+}
+
+h2{
+    font-size: 30px;
+    color: #12FD2D;
+}
+
+p{
+    color: rgb(32, 32, 32);
+    font-size: 17px;
+}
+
+li{
+    font-size: 17px;
+    color:  rgb(32, 32, 32);;
+}
+
+#tribute-info{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 10px;
+    text-align: justify;
+}
